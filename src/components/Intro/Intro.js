@@ -1,8 +1,8 @@
 /*Created by Kishore Kumar Govindaradjou on 4/4/2019 */
-import React, {Component} from 'react';
+import React from 'react';
 
 const Intro = (props) => (
-  <p class="App-intro">
+  <p className="App-intro">
     {props.message}
   </p>
 );
